@@ -1,0 +1,74 @@
+body {
+
+  background-image: url("../images/mom.jpg");
+  background-position : center;
+  background-repeat: no-repeat;
+  
+ 
+}
+
+#ma 
+{ 
+  color:#00CED1;
+}
+ #om
+ {
+  color:#00CED1;
+ }
+h1
+{
+  float:middle;
+}
+img
+{
+  width: 400px;
+  height: 650px;
+  vertical-align: top;
+  color:#FF6347;
+  border-radius: 50%;
+}
+
+#big
+{
+  display:flex;
+  align-items:top;
+}
+li
+{
+  display:flex;
+  align-items:center;
+}
+.topnav {
+  
+  overflow: hidden;
+  text-align:center;
+  background-color: F0FFFF;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  text-decoration-style: bold;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  word-spacing:50px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  margin-top= 0px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  text-align: center;
+  background-color: #ddd;
+  color: red;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  text-align: center
+  background-color: FFFF00;
+  color: blue;
+}

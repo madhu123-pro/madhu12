@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+
+  background-image: url(../images/aurora.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding:0px 15px 0px 0px;
+  overflow: hidden;
+  background-color: #333;
+   background-image: url("../images/nuya.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 50px;
+  text-decoration:none;
+ 
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {
+  background-color: #4CAF50;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+div
+{
+padding:0 0px;"
+}
+
+.center
+{ 
+  
+ 
+  width:750px;
+  height:400px;
+
+  
+}
+#mu
+{
+font-size: 25px;
+font-family: sans-serif;
+color:white;
+}
+#ne
+{
+  font-size: 30px;
+}
+h3
+{
+  font-size: 30px;
+}
+.column {
+  float: left;
+  width: 100px;
+  padding-left: 175px;
+  padding-right: 175px;
+
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding:0 100px;
+
+}
+
