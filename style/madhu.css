@@ -1,7 +1,7 @@
 body {
   margin: 0;
 
-  background-image: url(aurora.jpg);
+  background-image: url(../images/aurora.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ ul.topnav {
   padding:0px 15px 0px 0px;
   overflow: hidden;
   background-color: #333;
-   background-image: url("nuya.jpg");
+   background-image: url("../images/nuya.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
